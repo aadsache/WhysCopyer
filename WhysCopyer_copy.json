@@ -1,0 +1,21 @@
+{
+    "version":2,
+    "commands":[
+        {
+            
+            "id":"my.copy",
+            "displayName":"WhysCopyer_copy",
+            "program":"C:\\WhysCopyer.exe",
+            "args":"copy id=${id} name=${name} filePath=${filePath} type=${type} category=${category}",
+            "cwd":"",
+            "startMode":"MultipleSelectionSingleProcessSpaceSeparated",
+            "contextMenu": {
+
+                "basePath": "",
+
+                "enabledFor": "Sound,ActorMixer,SwitchContainer,RandomSequenceContainer,BlendContainer,MusicSwitchContainer,MusicPlaylistContainer,MusicSegment,MusicTrack"
+
+            }
+        }
+    ]
+}
